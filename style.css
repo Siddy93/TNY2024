@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.backdrop{
+    height: 1200px;
+    width: 100%;
+    background-image: linear-gradient(180deg,rgb(40, 0, 114),rgb(150, 0, 155));
+
+}
+
+.backdrop h1{
+    position: relative;
+    top: 05%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    
+}
+
+
+.GreetCard{
+
+    position: relative;
+    height: 200px;
+    width: 500px;
+    left: 650px;
+    top: 250px;
+    border-radius: 15px;
+    background-color: rgba(48, 255, 210, 0.236);
+    color: rgb(252, 255, 87);
+
+    padding: 30px;
+    text-align: center;
+}
+
+.GreetCard p{
+
+    position:relative;
+    top:10px;
+    font-size: 25px;
+    
+}
+
+.fwl, .fwr {
+
+    height: 500px;
+    width: 500px;
+  
+}
+
+.fwl{
+
+    position: relative;
+    left: 220px;
+    bottom: 10px;
+
+}
+
+.fwr{
+
+    position: relative;
+    left: 650px;
+    bottom: 110px;
+
+}
+.rango{
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    left: 550px;
+    top: 100px ;
+    -webkit-animation: spin 100s linear infinite;
+    opacity: 0.25;
+}
+
+@-webkit-keyframes spin{
+
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+
